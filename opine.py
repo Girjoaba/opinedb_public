@@ -7,7 +7,7 @@ import random
 import numpy as np
 
 from gensim.models import Word2Vec
-from gensim.summarization.bm25 import get_bm25_weights, BM25
+from gensim.summarization.bm25 import get_bm25_weights, BM25   # summarization is deprecated now tho
 
 from scipy import spatial
 from sklearn.neighbors import KDTree

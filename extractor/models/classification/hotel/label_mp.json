@@ -1,0 +1,1 @@
+{"building": 0, "general": 1, "room -> cleanliness": 2, "location": 3, "staff": 4, "operation": 5, "value": 6, "facility": 7, "safety": 8, "food": 9, "room -> interior": 10, "room -> size": 11, "room -> bathroom": 12, "room -> bed": 13, "room -> quietness": 14, "room -> supplies": 15, "room -> temperature": 16, "room -> view": 17}

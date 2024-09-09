@@ -25,7 +25,8 @@ import os
 import modeling
 import optimization
 import tokenization
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 flags = tf.flags
 

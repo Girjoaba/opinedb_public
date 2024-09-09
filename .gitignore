@@ -1,0 +1,5 @@
+.venv
+uncased*
+data/*/
+!data/*/Makefile
+!data/*/config.json

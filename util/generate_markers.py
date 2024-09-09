@@ -22,6 +22,11 @@ from gensim.models import Word2Vec
 from sklearn.cluster import KMeans
 from scipy import spatial
 
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('stopwords')
+nltk.download('punkt_tab')
+
 SIA = SentimentIntensityAnalyzer()
 
 def load_raw_reviews(raw_review_fn):
